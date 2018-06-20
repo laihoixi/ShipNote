@@ -14,6 +14,13 @@
 		5563A40420DA3A2600415977 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5563A40220DA3A2600415977 /* LaunchScreen.storyboard */; };
 		5563A40F20DA3A2600415977 /* ShipNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A40E20DA3A2600415977 /* ShipNoteTests.swift */; };
 		5563A41A20DA3A2600415977 /* ShipNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A41920DA3A2600415977 /* ShipNoteUITests.swift */; };
+		5563A42820DA3C5A00415977 /* EditNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A42720DA3C5A00415977 /* EditNoteViewController.swift */; };
+		5563A42A20DA3D3200415977 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A42920DA3D3200415977 /* PhotoDetailViewController.swift */; };
+		5563A42E20DA3E1600415977 /* EditPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A42D20DA3E1600415977 /* EditPhotoViewController.swift */; };
+		5563A43020DA3E6E00415977 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A42F20DA3E6E00415977 /* PhotoTableViewCell.swift */; };
+		5563A43420DA3EC400415977 /* PhotoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A43320DA3EC400415977 /* PhotoTableViewController.swift */; };
+		5563A43620DA3EEB00415977 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A43520DA3EEB00415977 /* AddPhotoViewController.swift */; };
+		5563A43820DA3F7400415977 /* NoteDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5563A43720DA3F7400415977 /* NoteDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		5563A41520DA3A2600415977 /* ShipNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShipNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5563A41920DA3A2600415977 /* ShipNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipNoteUITests.swift; sourceTree = "<group>"; };
 		5563A41B20DA3A2600415977 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5563A42720DA3C5A00415977 /* EditNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditNoteViewController.swift; sourceTree = "<group>"; };
+		5563A42920DA3D3200415977 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		5563A42D20DA3E1600415977 /* EditPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPhotoViewController.swift; sourceTree = "<group>"; };
+		5563A42F20DA3E6E00415977 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		5563A43320DA3EC400415977 /* PhotoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewController.swift; sourceTree = "<group>"; };
+		5563A43520DA3EEB00415977 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
+		5563A43720DA3F7400415977 /* NoteDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +113,17 @@
 			children = (
 				5563A3F920DA3A2500415977 /* AppDelegate.swift */,
 				5563A3FB20DA3A2500415977 /* ViewController.swift */,
+				5563A42720DA3C5A00415977 /* EditNoteViewController.swift */,
 				5563A3FD20DA3A2500415977 /* Main.storyboard */,
 				5563A40020DA3A2600415977 /* Assets.xcassets */,
 				5563A40220DA3A2600415977 /* LaunchScreen.storyboard */,
 				5563A40520DA3A2600415977 /* Info.plist */,
+				5563A42920DA3D3200415977 /* PhotoDetailViewController.swift */,
+				5563A42D20DA3E1600415977 /* EditPhotoViewController.swift */,
+				5563A42F20DA3E6E00415977 /* PhotoTableViewCell.swift */,
+				5563A43320DA3EC400415977 /* PhotoTableViewController.swift */,
+				5563A43520DA3EEB00415977 /* AddPhotoViewController.swift */,
+				5563A43720DA3F7400415977 /* NoteDetailViewController.swift */,
 			);
 			path = ShipNote;
 			sourceTree = "<group>";
@@ -257,6 +278,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				5563A3FC20DA3A2500415977 /* ViewController.swift in Sources */,
+				5563A43620DA3EEB00415977 /* AddPhotoViewController.swift in Sources */,
+				5563A43820DA3F7400415977 /* NoteDetailViewController.swift in Sources */,
+				5563A43420DA3EC400415977 /* PhotoTableViewController.swift in Sources */,
+				5563A42E20DA3E1600415977 /* EditPhotoViewController.swift in Sources */,
+				5563A43020DA3E6E00415977 /* PhotoTableViewCell.swift in Sources */,
+				5563A42820DA3C5A00415977 /* EditNoteViewController.swift in Sources */,
+				5563A42A20DA3D3200415977 /* PhotoDetailViewController.swift in Sources */,
 				5563A3FA20DA3A2500415977 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
